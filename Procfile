@@ -1,1 +1,1 @@
-web: streamlit run specialistmatch.py --server.port $PORT --browser.serverAddress https://specialistmatch.heroukapp.com
+web: streamlit run docmatch.py --server.port $PORT --browser.serverAddress https://docmatch.heroukapp.com
