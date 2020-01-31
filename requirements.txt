@@ -1,0 +1,6 @@
+pickleshare
+#collections
+pandas
+numpy
+matplotlib
+streamlit
