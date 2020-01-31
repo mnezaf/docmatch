@@ -1,5 +1,5 @@
 #pickle
-#collections
+collections
 pandas
 numpy
 matplotlib
