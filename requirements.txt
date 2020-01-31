@@ -1,5 +1,5 @@
-pickleshare
-#collections
+pickle
+collections
 pandas
 numpy
 matplotlib
