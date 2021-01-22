@@ -1,0 +1,4 @@
+Unified Medical Language System (UMLS) is a set of unified vocabulary for medical terms. Currently UMLS has 2.7 million medical concepts, 135 semantic types and 633 different relation types. For more information see: https://www.nlm.nih.gov/research/umls/index.html
+Downloading UMLS requires a license which is free for academic use but it still needs to be approved. 
+
+After downloading the database, I built a local MySQL database using populate_* scripts to efficiently query the data. These scripts needs to be copied to the path where the UMLS database is downloaded. Also the parameters in lines 14-17 of the scripts needs to be modified to define the path to MySQL executable, MySQL username, password and the database name. After running the scripts, the database is created locally and is ready to be queried in python.
