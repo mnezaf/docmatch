@@ -3,6 +3,10 @@ Many insurance plans (PPO and EPO) do not require referral from PCP. According t
 
 ![](docmatch.gif)
 
+Here is the outline of how docmatch works:
+
+![](chatbot.JPG)
+
 For creating docmatch:
 
 1) Install Unified Medical Language System (UMLS) and MySQL
@@ -18,4 +22,3 @@ I trained a model on the data extracted in step 2, using logistic regression. Th
 
 4) Create a chatbot
 Docmatch chatbot asks users to describe their signs and symptoms in sentences. Sign and symptoms are extracted from user's input using Metamap(https://metamap.nlm.nih.gov/Installation.shtml). Then the chatbot suggests more symptoms that are related to the user's symptoms and asks for user confirmation. Then, chatbot runs the predictive model that was created in step 3 and provides the predicted specialty. The code for this step can be found in chatbot directory.
-![](chatbot.JPG)
