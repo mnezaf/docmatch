@@ -1,0 +1,5 @@
+app.py creates a slackbot to communicate with users and provides the predicted physician specialty defined by our model.
+For creating a slackbot you need to create a workspace in https://slack.com/create#email. Then, log in to the workspace in Slack and create an app. In the app create a bot with write permissions and create a Bot User OAuth Access Token. You should use that token in python to communicate with the bot. The token was defined in line 22 in app.py which is removed for security purposes.
+Docmatch chatbot first asks users to describe their signs and symptoms. Then it suggests more symptoms that are related to the user's symptoms and asks for user confirmation. Then, chatbot runs the predictive model and provides the predicted specialty. 
+I used Metamap, an NLP platform to convert text to UMLS concepts which is readable by the model.
+
